@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="images/">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/toyforkids.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Montserrat:wght@600;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="main-header">
@@ -30,7 +35,7 @@
             <p>Toys</p>
         </div>
         <section>
-            <form action="#" method="post">
+            <form action="#" method="post" class="settings">
                 <legend>Cost</legend>
                 <input type="range" min="0" max="500" name="Cost" id="Cost">
                 <label for="Cost">0</label>
@@ -86,7 +91,7 @@
                         </li>
                     </ul>
                     </fieldset>
-                    <button>Apply</button>
+                    <button class="apply">Apply</button>
                 </form>
             </section>
             <section>
@@ -143,13 +148,13 @@
         </div>
     </main>
 </body>
-<footer>
-    <ul>
+<footer class="footer">
+    <ul class="footer-titles">
         <li><h5>Navigation</h5> </li>
         <li><h5>Customer Information</h5></li>
         <li><h5>Connect</h5></li>
     </ul>
-    <ul>
+    <ul class="footer-navigation">
        <li><a href="#">About Us</a></li> 
        <li><a href="#">Blog</a></li>
        <li><a href="#">Design Services</a></li>
@@ -157,8 +162,15 @@
        <li><a href="#">2018 Holiday Catalog</a></li>
        <li><a href="#">Shop By Designer</a></li>
     </ul>
-        <p>Company Rating</p>
-    <ul>
+        <label class="rating" for="rating">Company Rating</label>
+    <fieldset>
+        <input type="radio" name="rating" aria-label="ужасно">
+        <input type="radio" name="rating" aria-label="сносно">
+        <input type="radio" name="rating" aria-label="нормально">
+        <input type="radio" name="rating" aria-label="хорошо">
+        <input type="radio" name="rating" aria-label="отлично">
+    </fieldset>
+    <ul class="footer-information">
         <li><a href="#">Contact Us</a></li>
         <li><a href="#">Sale Exclusions</a></li>
         <li><a href="#">Shipping & Returns</a></li>
@@ -166,10 +178,10 @@
         <li><a href="#">Privacy Policy</a></li>
         <li><a href="#">Search</a></li>
     </ul>
-        <p>Copyright © 2018 Dlk • Design Life Kids</p>
-        <form action="" method="post">
-            <input type="text">
-                <button>Join</button>
+        <p class="copyright">Copyright © 2018 Dlk • Design Life Kids</p>
+            <form action="" method="post">
+                <input type="text">
+                <button class="join">Join</button>  
             </form>
                 <ul>
                     <li><img src="images/social networks/Facebookfacebook.svg" alt=""></li>
@@ -177,6 +189,6 @@
                     <li><img src="images/social networks/Pinterestpinterest.svg" alt=""></li>
                     <li><img src="images/social networks/Instagraminstagram.svg" alt=""></li>
                 </ul>
-                        <p>Web Design — Direct Line Development</p>
+                        <p class="development">Web Design — Direct Line Development</p>
 </footer>
 </html>
