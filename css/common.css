@@ -94,3 +94,38 @@ a {
     color: #A2A2A2;
 
 }
+
+.switch li{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.nav a{
+    text-transform: uppercase;
+    color:  #1E0606;
+}
+ .Contact{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #1E0606;
+
+ }
+ .location:last-child{
+    opacity: 0.5;
+ }
+
+ .location {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+
+ }
+
