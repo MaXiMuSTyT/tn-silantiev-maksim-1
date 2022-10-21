@@ -13,31 +13,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Montserrat:wght@600;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <title>main</title>
 </head>
-<body>
-    <header class="main-header">
+<body >
+    <header class="main-header container">
         <nav class="navigation" >
-            <img class="logo" src="images/logo.svg" alt="logo">
+            <img class="logo nav" src="images/logo.svg" alt="logo">
                  <ul class="nav"> 
                     <li class="blog"><a href="#">Blog</a></li> 
                     <li><a href="#">Catalog</a></li> 
                     <li><a href="#">About Us</a></li> 
                 </ul>
-                    <img src="images/search.svg" alt="">
+                    <img class="search" src="images/search.svg" alt="">
                     <a href="#" class="Contact">Contact Us</a>     
         </nav>
     </header>
-    <main>
+    <main class="container">
         <div class="banner">
             <img src="images/01.svg" alt="">
             <h1>THE OOH NOO COLLECTION</h1>
-            <img src="images/monster.png" class="picture" alt="">
             <p>Designed in Slovenia</p>
             <a href="#" class="explore">EXPLORE NOW</a>
-            <p class="text">Free (continental) USA shipping on all orders of $100 USD or more!</p>
+            <img src="images/monster.png" class="picture" alt=""> 
+           <p class="text">Free (continental) USA shipping on all orders of $100 USD or more!</p>
         </div>
+
         <section>
             <h2>Category Products</h2>
-                <ul>
+                <ul class="CategoryProducts">
                     <li class="apparelkids">
                         <a  href="#">APPAREL KIDS</a>
                         <img src="images/Category Products/APPARELKIDS.png" alt="">
@@ -55,16 +56,19 @@
                         <img src="images/Category Products/ACCESSORIES.png" alt="">
                     </li>
                 </ul> 
+                <div class="arrows" >
                     <img src="images/leftarrow.svg" alt="" class="leftarrow">
                         <button></button>
                      <img src="images/rightarrow.svg" alt="" class="rightarrow">
                         <button></button>
                             <p>Modern finds for the modern home. Curated goods by unique designers around the world from fashion to furniture for kids and adults.</p>
+                </div>            
         </section>
-        <section>
+        <section class="Delivery-section">
             <img src="images/woman.jpg" alt="">
-                <h2>Delivery</h2> 
-            <ul>
+            <div class="information">
+                <h2 class="title">Delivery</h2> 
+            <ul >
                     <li><button class="delivery">Delivery</button> </li>
                     <li><button>Guarantee</button> </li>
                     <li><button>Credit</button> </li>
@@ -72,28 +76,32 @@
                 <p>Some days i f
                 eel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
                 <p>What started as an outlet to deal  with the traumatic loss of my husband, dlk has now become a truly happy place for me and i have you and all of the beautiful designers that we work with to thank!</p>
-            <button type="button" class="learnmore">LEARN MORE</button>
-            <ul>
+                <button type="button" class="learnmore">LEARN MORE</button>
+           </div> 
+        </section>
+        <div >
+            <ul class="brands">
                 <li><img src="images/brands/imageBrand.png" alt=""></li>
                 <li><img src="images/brands/imageBrand (1).png" alt=""></li>
                 <li><img src="images/brands/imageBrand (2).png" alt=""></li>
                 <li><img src="images/brands/imageBrand (3).png" alt=""></li>
             </ul>
-        </section>
-        <article class="design">
+        </div>
+        <article class="design ">
             <h2>Design Life Kids</h2>
             <p class="aboutus">About Us</p>
             <P>Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</P>
             <button class="buy">buy now</button>
         </article>
-        <section class="contacts">
+        <section class="contacts ">
             <h2>Contacts</h2>
             <p>Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
             <img src="images/map.jpg" alt="">
         </section>
     </main>
 </body>
-<footer class="footer">
+<footer class="footer ">
+    <div class="container">
         <ul class="footer-titles">
             <li><h5>Navigation</h5> </li>
             <li><h5>Customer Information</h5></li>
@@ -107,6 +115,14 @@
            <li><a href="#">2018 Holiday Catalog</a></li>
            <li><a href="#">Shop By Designer</a></li>
         </ul>
+               <ul class="footer-information">
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Sale Exclusions</a></li>
+            <li><a href="#">Shipping & Returns</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Search</a></li>
+        </ul>
             <label class="rating" for="rating">Company Rating</label>
         <fieldset>
             <input type="radio" name="rating" aria-label="ужасно">
@@ -115,14 +131,7 @@
             <input type="radio" name="rating" aria-label="хорошо">
             <input type="radio" name="rating" aria-label="отлично">
         </fieldset>
-        <ul class="footer-information">
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Sale Exclusions</a></li>
-            <li><a href="#">Shipping & Returns</a></li>
-            <li><a href="#">Terms & Conditions</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Search</a></li>
-        </ul>
+ 
             <p class="copyright">Copyright © 2018 Dlk • Design Life Kids</p>
                 <form action="" method="post">
                     <input type="text">
@@ -134,7 +143,8 @@
                         <li><img src="images/socialnetworks/Pinterestpinterest.svg" alt=""></li>
                         <li><img src="images/socialnetworks/Instagraminstagram.svg" alt=""></li>
                     </ul>
-                            <p class="development">Web Design — Direct Line Development</p>
+                           <p class="development">Web Design — Direct Line Development</p>
+    </div> 
 </footer>
     <form action="#" method="post" class="form">
         <label>

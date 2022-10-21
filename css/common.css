@@ -1,5 +1,6 @@
 * {
     font-family: 'Open Sans', 'Arial', sans-serif;
+    box-sizing: border-box;
 } 
 
 h1{
@@ -38,6 +39,8 @@ h3 {
 
 li {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -59,15 +62,23 @@ li {
 
 .footer-titles{
     color: #AAAAAA;
+    display: flex;
+    justify-content: space-between;
 
 }
 .footer-navigation{
     color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    width: 158px;
 
 }
 
 .footer-information{
     color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    width: 148px;
 
 }
 
@@ -127,5 +138,11 @@ a {
     line-height: 26px;
     color: #1E0606;
 
+ }
+
+ .container{
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
  }
 
