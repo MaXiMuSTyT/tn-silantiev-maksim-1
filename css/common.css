@@ -36,6 +36,10 @@ h3 {
 
 
 }
+ul{ 
+    margin: 0px;
+    padding: 0px;
+}
 
 li {
     list-style-type: none;
@@ -63,9 +67,16 @@ li {
 .footer-titles{
     color: #AAAAAA;
     display: flex;
-    justify-content: space-between;
+    max-width: 1180px;
 
 }
+
+.CustomerInformation{
+    padding-left:320px ;
+    padding-right:233px ;
+}
+
+
 .footer-navigation{
     color: #FFFFFF;
     display: flex;
@@ -79,6 +90,7 @@ li {
     display: flex;
     flex-direction: column;
     width: 148px;
+    padding-left: 20px;
 
 }
 
@@ -98,6 +110,7 @@ a {
 
 .copyright{
     color: #FFFFFF;
+    padding-right: 109px;
 
 }
 
@@ -140,9 +153,67 @@ a {
 
  }
 
- .container{
-    max-width: 1180px;
-    width: 100%;
-    margin: 0 auto;
- }
+ .navigation{
+    display: flex;
+    align-items: center;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav li {
+    margin-right: 20px;
+}
+
+.search{
+    margin-left: 658px;
+}
+
+.Contact{
+    margin-left: 23px;
+}
+
+.containerforfooter{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.footer-data{
+    display:flex ;
+}
+.brands-footer{
+    display: flex;
+    max-width: 150px;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.form-footer{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+
+}
+
+
+.footer-data ul{
+    width:  380px;
+}
+
+.CompanyRating{
+    display: flex;
+}
+
+.companies{
+    display: flex;
+}
+
+.stars{
+    margin-right: 155px;
+}
 

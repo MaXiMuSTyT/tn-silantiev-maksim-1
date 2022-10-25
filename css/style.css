@@ -1,10 +1,17 @@
 .banner{
     background-color: #EEE4DB;
     display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-top: 129px;
+    padding-bottom: 89px;
 }
 
  .text {
     background-color: #C29974;
+    font-size: 12px;
+    width: 1180px;
+    padding: 11px 364px;
 }
 
 .leftarrow{
@@ -61,10 +68,6 @@
     padding: 9px;
 }
 
-.contacts{
-    background-color: #E1F0F7;
-
-}
 
 .contacts h2 {
     line-height: 46px;
@@ -73,33 +76,6 @@
 
 }
 
-.explore  {
-    background-color: #000000 ;
-    
-}
-
-.navigation{
-    display: flex;
-    align-items: center;
-
-}
-
-.nav {
-    display: flex;
-    justify-content: space-between;
-}
-
-.nav li {
-    margin-right: 20px;
-}
-
-.search{
-    margin-left: 658px;
-}
-
-.Contact{
-    margin-left: 23px;
-}
 
 .CategoryProducts{
     display: flex;
@@ -134,6 +110,8 @@
 .brands{
  display: flex;
  justify-content: space-between;
+margin: top 91px; 
+margin-bottom: 90px;
 }
 
 .design{
@@ -148,9 +126,66 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    margin-left: 57px;
+    background-color: #E1F0F7;
 }
 
 .container {
     max-width: 1180px;
     margin: 0 auto;
+     }
+
+.articles{
+        display: flex;
+        margin-bottom: 174px;
+     }
+
+.Designheadline{
+    margin-top: -26px;
+}
+
+.Contactsheadline{
+    margin-top: -26px;
+}
+
+.map{
+    padding: 137px 30px 0px;
+    position: absolute;
+}
+
+.monster{
+    position: absolute;
+    margin-left: 445px;
+    margin-top: -80px;
+}
+
+.one{
+    position: absolute;
+}
+
+.banner h1 {
+    padding-top:  89px; ;
+    padding-left: 133px;
+    font-size: 40px;
+    width: 440px;
+    margin-bottom: 0px;
+}
+
+.designedby{
+    padding-left: 133px;
+    margin-bottom: 0px;
+    margin-top:20px ;
+    
+}
+
+.explore{
+    padding: 9px 22px;
+    width: 161px;
+    margin-left: 133px;
+    margin-top: 20px;
+    background-color: #000000 ;
+}
+
+.products h2{
+    margin-top: 90px;
 }
