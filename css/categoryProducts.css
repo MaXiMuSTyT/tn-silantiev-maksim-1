@@ -1,0 +1,30 @@
+.Catalog{
+    display: flex;
+    justify-content: space-between 20px;
+    flex-wrap: wrap;
+    width: 1080px;
+
+}
+
+.Catalog li{
+    width: 270px;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+
+.Catalog a{
+    align-self: center;
+}
+
+.Description{
+    width: 680px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    margin-left: 200px;
+}

@@ -3,6 +3,12 @@
     box-sizing: border-box;
 } 
 
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+     }
+
+
 h1{
     font-family: 'Montserrat';
     font-weight: 700;
@@ -150,6 +156,8 @@ a {
     font-size: 20px;
     line-height: 26px;
     color: #1E0606;
+    display: flex;
+    justify-content: space-between 20px;
 
  }
 
